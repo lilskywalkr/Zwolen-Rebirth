@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+::selection {
+    background: #0cb4ce;
+    color: #fff;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background: #f5f6fa;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ------------------------------------------NAVIGATION------------------------ */
+
+nav {
+    width: 100%;
+    height: 4rem;
+    background: #fff;
+    user-select: none;
+    display: flex;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+nav a:hover {
+    color: #b0b0b0;
+}
+
+.left-box {
+    width: 192px;
+    height: 100%;
+    line-height: 4rem;
+    vertical-align: middle;
+}
+
+.left-box span {
+    color: #1b1d1f;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: capitalize;
+    letter-spacing: 1em;
+    margin-left: 2em;
+}
+
+.middle-box {
+    width: 80%;
+    height: 100%;
+    text-align: right;
+    word-spacing: 1em;
+    line-height: 4rem;
+    vertical-align: middle;
+}
+
+.middle-box a {
+    color: #1b1d1f;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.middle-box a:last-child {
+    margin-right: 2em;
+}
+
+.right-box {
+    width: 192px;
+    height: 100%;
+    border-left: 1px solid #ecf0f1;
+    text-align: center;
+    line-height: 4rem;
+    vertical-align: middle;
+    word-spacing: 1.5em;
+}
+
+.right-box a {
+    color: #1b1d1f;
+    font-size: 14px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    left: 0;
+    top: 4rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background: #1b1d1f;
+    z-index: 1000;
+}
+
+.dropdown-menu a {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    display: block;
+    padding: 1.5em;
+}
+
+.dropdown-menu a:hover {
+    color: #808080;
+}
+
+/* ------------------------------------------NAVIGATION------------------------ */
+
+/* -----------------------------------------CONTAINER--------------------------*/
+
+.container{
+    width: 100%;
+    height: auto;
+}
+
+.description{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 7em 0 7em 0;
+    color: #808080;
+}
+
+.description p{
+    margin: 0 .5em 0 .5em;
+}
+
+.description p span{
+    display: block;
+    text-transform: capitalize;
+    font-size: 60px;
+    padding: 0 0 .5em 0;
+    color: #1b1d1f;
+}
+
+.parallax-image{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 1em;
+    padding: 10em 0 10em 0;
+    background: url('../../img/joey.jpg');
+    text-transform: capitalize;
+    background-size: cover;
+    background-position: center;
+}
+
+/* -----------------------------------------CONTAINER--------------------------*/
+
+/* -----------------------------------------BOTTOM-STUFF---------------------*/
+
+.bottom-title{
+    margin-top: 1em;
+    width: 100%;
+    height: auto;
+    padding: 7rem 0 7rem 0;
+    text-align: center;
+    color: #fff;
+    background: #0cb4ce;
+    font-weight: 900
+}
+
+.bottom-title p{
+    margin: 0 .5em 0 .5em;
+}
+
+.bottom-title p span{
+    display: block;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+.bottom-title p span:after{
+    content: '';
+    position: relative;
+    display: block;
+    margin: .5em auto .5em auto;
+    width: 2em;
+    height: 3px;
+    left: 0;
+    background: #fff;
+}
+
+.gallery-button{
+    display: block;
+    color: #fff;
+    width: 250px;
+    height: 80px;
+    border: 5px solid #fff;
+    margin: 2em auto 0 auto;
+    overflow: hidden;
+    line-height: 80px;
+    vertical-align: middle;
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    transition: 400ms all;
+    background: linear-gradient(#fff, #fff) no-repeat -250px 0px;
+}
+
+.gallery-button:hover{
+    color: #0cb4ce;
+    background: linear-gradient(#fff, #fff) no-repeat 0px 0px;
+}
+
+.bottom-background{
+    width: 100%;
+    height: auto;
+    background: url('../../img/phone.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bottom-bg-cover{
+    width: 100%;
+    height: 100%;
+    background: #1b1d1f;
+    opacity: .5;
+    padding: 10rem 0 10rem 0;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+}
+
+/* -----------------------------------------BOTTOM-STUFF---------------------*/
+
+/* -------------------------------------------FOOTER----------------------------------------*/
+
+footer{
+    width: 100%;
+    height: auto;
+    background: #1b1d1f;
+    text-align: center;
+    padding: 5rem 0 5rem 0;
+}
+
+footer a{
+    font-size: 25px;
+    display: inline-block;
+    padding: 1em 1.25em 1em 1.25em;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    color: #fff;
+    transition: 400ms all;
+}
+
+footer a:first-child{
+    padding: 1em 1.5em 1em 1.5em;
+}
+
+footer a:hover{
+    background: #fff;
+    color: #1b1d1f;
+    transform: scale(.8);
+}
+
+footer .author {
+    color: #fff;
+    font-weight: 900;
+    text-transform: capitalize;
+    font-size: 25px;
+    display: block;
+    margin: 40px 0 0 0;
+}
+
+footer .author:after {
+    content: '';
+    display: block;
+    position: relative;
+    width: 3em;
+    height: 3px;
+    background: #0cb4ce;
+    margin: auto;
+    left: 0;
+    top: 1em;
+}
+
+.author i {
+    animation: heartbeat 1s infinite;
+}
+
+footer .rights {
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    display: block;
+    margin: 30px 0 0 0;
+}
+
+/* -------------------------------------------FOOTER----------------------------------------*/
+
+/* -----------------------------------------MEDIA---------------------------*/
+
+@media all and (min-width: 960px) {
+    .dropdown-menu {
+        display: none !important;
+    }
+
+    nav .bars span {
+        display: none !important;
+    }
+}
+
+@media all and (max-width: 959px) {
+    .dropdown-menu {
+        display: none;
+    }
+
+    .middle-box,
+    .right-box {
+        display: none;
+    }
+
+    .top-background {
+        padding: 12rem 0 12rem 0;
+    }
+
+    nav .bars {
+        width: 95%;
+        font-size: 20px;
+        color: #1b1d1f;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    nav .bars span {
+        margin-right: 2em;
+        cursor: pointer;
+    }
+    
+    
+
+    .large-article {
+        transform: scale(.9);
+    }
+
+    .medium-article {
+        transform: scale(.9);
+    }
+}
+
+@media all and (max-width: 350px){
+    .gallery-button{
+        transform: scale(.8);
+    }
+    
+    .bottom-title p span{
+        font-size: 35px;
+    }
+    
+    .parallax-image{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 240px) {
+    body,
+    nav {
+        width: 240px;
+    }
+}
+
+/* -----------------------------------------MEDIA---------------------------*/
+
+/* -----------------------------------------KEYFRAMES---------------------------*/
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+    20% {
+        transform: scale(1.2);
+    }
+    40% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(1.2);
+    }
+    80% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* -----------------------------------------KEYFRAMES---------------------------*/
