@@ -35,7 +35,10 @@ This project features smooth parallax scrolling, elegant animations, and a respo
 
 ## 📸 Overview
 
-
+![web_1](https://github.com/user-attachments/assets/a45b1cc5-3219-403f-9b86-987b255aaa17)
+![web_2](https://github.com/user-attachments/assets/6aba52ab-dac4-4161-af8e-ac848b81eeb3)
+![web_3](https://github.com/user-attachments/assets/e689e4dc-0e08-4e8c-9e54-fabf1dd6ad43)
+![web_4](https://github.com/user-attachments/assets/5544ee36-367d-4a8d-9915-9a3ed617981f)
 
 ---
 
